@@ -1,0 +1,59 @@
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Sensitive files
+allowed_users.json
+service-account-key.json
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.iml
+
+# Compiled files
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Debug files
+debug/
+*.pid
+
+# Miscellaneous
+*.tgz
+*.sqlite
+*.sqlite3
